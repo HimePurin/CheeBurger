@@ -1,0 +1,194 @@
+@charset "utf-8";
+/* CSS Document */
+.bg-trang-70{ background-color: rgba(255,255,255,0.5)}
+
+#hero1{
+	background: url(../images/Group37.png) no-repeat scroll center center;
+	background-size: cover;
+}
+
+#welcome{
+	background: url(../images/welcome.png) no-repeat scroll center center;
+	background-size: cover;
+}
+
+#carouselExampleIndicators1{ overflow: hidden; width: 100%}
+#combo .card
+{ 
+	transition:all 0.5s;
+	background-color: var(--white);
+	
+}
+#combo .card h2{ color: var(--secondary)}
+#combo .card:hover
+{
+	background-color: var(--secondary);
+	color: #fff
+}
+#combo .card:hover >h3,
+#combo .card:hover >h2
+{ color: #fff}
+
+.tp > div > div > div > div {
+	margin-bottom: 31px;
+  }
+  
+  @media (min-width: 1200px) {
+	.bl-bg {
+	  background: url(../images/bg-img.png) center / contain repeat-x !important;
+	}
+  }
+
+  .tes{
+	background-image: url("../images/Rectangle 1.png"),url( "../images/testimonial_pattern-min 1.png");
+	background-repeat: no-repeat,no-repeat,no-repeat;
+	background-position: left bottom , 25% 40%,center bottom;
+	background-size:460px 20px 200px;
+	padding-bottom: 40px;
+	padding-top: 40px		
+}
+@media (max-width:991px){
+	.tes{display: none !important}
+}
+  
+.navbar .nav-item.active .nav-link {
+	color: #E5222E;
+}
+
+.navbar .nav-link:hover {
+	color: #E5222E;
+  }
+
+  #footer{
+	margin: 0;
+   font-family:"Patrick Hand", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+   font-size: 1rem;
+   font-weight: 400;
+   line-height: 1.5;
+   color: #A0A0A0;
+   text-align: left;
+   background-color: #fff;
+  }
+
+  #tes{
+	margin: 0;
+   font-family:"Patrick Hand", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+   font-size: 1rem;
+   font-weight: 400;
+   line-height: 1.5;
+   color: #A0A0A0;
+   text-align: left;
+   background-color: #fff;
+  }
+
+  #thanhphan{
+	margin: 0;
+   font-family:"Patrick Hand", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+   font-size: 1rem;
+   font-weight: 400;
+   line-height: 1.5;
+   color: #A0A0A0;
+   text-align: left;
+   background-color: #fff;
+  }
+  
+/* Twitter */
+.twit {
+    color: #1DA1F2;
+    transition: transform 0.3s, color 0.3s; /* Thêm hiệu ứng mượt */
+}
+
+.twit:hover {
+    color: #0056b3; /* Đổi sang màu xanh đậm */
+}
+
+/* Facebook */
+.face {
+    color: #1877F2;
+    transition: transform 0.3s, color 0.3s;
+}
+
+.face:hover {
+    color: #0d5bbf; /* Đổi sang màu xanh đậm hơn */
+}
+
+/* YouTube */
+.youtube {
+    color: #FF0000;
+    transition: transform 0.3s, color 0.3s;
+}
+
+.youtube:hover {
+    color: #cc0000; /* Đổi sang màu đỏ đậm hơn */
+}
+
+a {
+    text-decoration: none; /* Không gạch chân mặc định */
+    color: inherit; /* Màu chữ theo ngữ cảnh */
+}
+
+a:hover {
+    text-decoration: none; /* Không gạch chân khi hover */
+    color: #ff4d4d; /* Màu chữ khác khi hover (nếu cần) */
+}
+
+.box-shadow-example {
+	background-color:rgba(255,255,255,1.00);
+ padding: 5px;
+	 box-shadow: 0px 0px 10px rgba(0,0,0,0.5); /* Đổ bóng */
+	 position: relative; /* Đảm bảo phần tử có thể sử dụng z-index */
+   z-index: 2; /* Đặt z-index cao để thanh menu nằm trên nền */
+   }
+ .box-shadow-example-1{
+	border-radius: 10px ;
+ /*padding: 5px;*/
+	 box-shadow: 0px 0px 10px rgba(0,0,0,0.5); /* Đổ bóng */
+	 position: relative; /* Đảm bảo phần tử có thể sử dụng z-index */
+   z-index: 2; /* Đặt z-index cao để thanh menu nằm trên nền */
+   }
+ 
+ .box-shadow-example-2 {
+	background-color:rgba(255,255,255,1.00);
+ padding: 10px;
+	 box-shadow: 0px 0px 10px rgba(0,0,0,0.5); /* Đổ bóng */
+	 position: relative; /* Đảm bảo phần tử có thể sử dụng z-index */
+   z-index: 2; /* Đặt z-index cao để thanh menu nằm trên nền */
+   }
+
+   .btn-danger-1 {
+	color: #fff;
+	background-color: #dc3545;
+	border-color: #dc3545;
+	  border-radius: 30px
+  }
+  
+  .btn-danger-1:hover {
+	color: #fff;
+	background-color: #c82333;
+	border-color: #bd2130;
+  }
+  
+  .btn-danger-1:focus, .btn-danger-1.focus {
+	color: #fff;
+	background-color: #c82333;
+	border-color: #bd2130;
+	box-shadow: 0 0 0 0.2rem rgba(225, 83, 97, 0.5);
+  }
+  
+  .btn-danger-1.disabled, .btn-danger-1:disabled {
+	color: #fff;
+	background-color: #dc3545;
+	border-color: #dc3545;
+  }
+  
+  .btn-danger-1:not(:disabled):not(.disabled):active, .btn-danger-1:not(:disabled):not(.disabled).active,
+  .show > .btn-danger-1.dropdown-toggle {
+	color: #fff;
+	background-color: #bd2130;
+	border-color: #b21f2d;
+  }
+  
+  .btn-danger-1:not(:disabled):not(.disabled):active:focus, .btn-danger-1:not(:disabled):not(.disabled).active:focus,
+  .show > .btn-danger-1.dropdown-toggle:focus {
+	  box-shadow: 0 0 0 0.2rem rgba(225, 83, 97, 0.5);}
+  

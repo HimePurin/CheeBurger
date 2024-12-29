@@ -1,0 +1,276 @@
+/* #delivery-promo {
+    background-color: #fef6e4;
+    border-radius: 15px; 
+    padding: 3rem 2rem; 
+} */
+
+.giaohanglg{
+	background-image:url("../images/delivery_image-min 1.png"),url("../images/delivery_bike-min 1.png"),url("../images/bg-chan-hero.png"),url("../images/delivery_bg 1.png");
+	background-repeat: no-repeat,no-repeat,no-repeat,no-repeat;
+	background-position: right center, center 85%,center bottom,center ;
+	background-size:auto, 250px, auto;
+	min-height: 600px;
+	padding-bottom: 50px;
+	padding-top: 20px
+
+}
+
+.giaohangmd{
+	background-image:url("../images/delivery_image-min 1.png"), url("../images/delivery_bike-min 1.png"),url("../images/delivery_bg 1.png");
+	background-repeat:no-repeat,no-repeat,no-repeat;
+	background-position:right 10%, left 90%, center;
+	background-size: 100px,200px,cover;
+	padding-bottom: 40px;
+	padding-top: 40px;
+	width: 100%	
+
+}
+
+@media (max-width:991px){
+	.giaohanglg,.danhgia{display: none !important}
+}
+@media (min-width:992px){
+	.giaohangmd,.danhgiamd{display: none}
+}
+
+.bl-bg {
+    z-index: 1;
+    background: url(../images/bg-img.png) center / cover no-repeat;
+    padding-bottom: 64px;
+    padding-top: 32px;
+}
+
+.custom-hr{
+    border: none;
+    height: 2px; /* Độ dày của đường */
+  background-color: #A0A0A0; /* Màu của đường */
+  width: 100%; /* Chiều rộng của đường */
+  margin: 20px auto; /* Căn giữa và thêm khoảng cách */
+  opacity: 1; /* Đảm bảo độ trong suốt 100% */
+}
+
+.footer-img{
+    width: 40%; /* Thu nhỏ hình còn 50% */
+  height: auto;
+}
+
+#tes {
+    margin-bottom: 60px; /* Khoảng cách dưới riêng cho section #tes */
+}
+
+.image-section {
+    text-align: center;
+    position: relative;
+}
+
+.food-images {
+    position: relative;
+}
+
+.food-images .main-img {
+    width: 100%;
+    position: relative;
+    z-index: 2;
+}
+
+.badge {
+    display: inline-block;
+    padding: 0.3em 0.5rem;
+    font-size: 85%;
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align:text-top;
+    border-radius:1rem;
+  }
+
+  .badge-menu {
+    display: inline-block;
+    padding: 0.2em 2rem;
+    font-size: 85%;
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align:text-top;
+    border-radius:1rem;
+  }
+
+  #about
+{
+	background-image: url( "../images/Rectangle 13.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	padding-top: 80px;
+	padding-bottom: 80px;
+	
+	
+}
+.about1
+{
+	background-image: url("../images/feature_bg 1.png"),url("../images/menu_pattern3-min 2.png"),url("../images/menu_pattern3-min 2.png") ;
+	background-repeat: no-repeat,no-repeat,no-repeat;
+	background-position: center, bottom,top,bottom;
+	background-size: 60% ,100%,90%,100%;
+	padding-top: 120px;
+	padding-bottom: 120px;
+}
+.about2
+{
+	background-image:url("../images/delivery_bg 1.png"),url("../images/bg-chan-hero.png");
+	background-repeat: no-repeat,no-repeat;
+	background-position: center;
+	padding-top: 100px;
+	padding-bottom: 120px;
+	
+}
+.card4
+{
+
+	background-color: var(--cyan);
+}
+
+	#dropdown-menu{
+		
+		flex-direction: column;
+		width: 250px;background: white;
+		justify-content: flex-start;
+		align-items: flex-start;
+		text-align: left;
+		display: none;
+		
+	}
+	#dropdown-menu a{ margin-left: 0}
+.card5
+{
+	background-color: white;
+	border-radius: 10px;
+	padding-bottom: 20px;
+	padding-top: 20px
+}
+
+.button {
+    display: inline-block;
+    
+	height: 35px;
+    color:  var(--gray);
+    background-color: transparent; /* Nền trong suốt */
+    border: 1px  solid var(--gray); /* Đường viền màu xanh */
+    border-radius: 1rem;
+    text-align: center;
+    text-decoration: none;
+    width: 110px
+}
+.button:hover
+{
+	 border: 1px  solid var(--secondary);
+		transition: all 0.5s
+}
+
+.bg-tsuot {
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px);
+    border: 1px solid rgba(255, 255, 255, 0);
+  }
+
+  .delivery-promolg{
+	background-image:url("../images/delivery_image-min 1.png"),url("../images/delivery_bike-min 1.png"),url("../images/bg-chan-hero.png"),url("../images/delivery_bg 1.png");
+	background-repeat: no-repeat,no-repeat,no-repeat,no-repeat;
+	background-position: right center, center 85%,center bottom,center ;
+	background-size:auto, 250px, auto;
+	min-height: 600px;
+	padding-bottom: 50px;
+	padding-top: 20px
+
+}
+
+.delivery-promomd{
+	background-image:url("../images/delivery_image-min 1.png"), url("../images/delivery_bike-min 1.png"),url("../images/delivery_bg 1.png");
+	background-repeat:no-repeat,no-repeat,no-repeat;
+	background-position:right 10%, left 90%, center;
+	background-size: 100px,200px,cover;
+	padding-bottom: 40px;
+	padding-top: 40px;
+	width: 100%	
+
+}
+
+@media (max-width:991px){
+	.delivery-promolg{display: none !important}
+}
+@media (min-width:992px){
+	.delivery-promomd{display: none}
+}
+
+#cuahang2 .card{	
+	border: none;
+	transition: all 0,5s
+}
+
+#cuahang2 .card:hover {
+	border: none;
+	box-shadow: 0px	0px 25px;
+	}
+
+    .btn-store{
+        color: #fff;
+        background-color: #dc3545;
+        border-radius:100px;
+      padding: 5px 7px 5px 7px;
+      border: none;
+      top: 50%;
+      left: 50%;
+       font-family: "Oswald", serif;
+      font-size: 12px;
+      position: absolute;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }
+  
+  .hide {
+    display: none;
+  }
+  
+  .myDIV:hover + .hide {
+    display: block;
+  }
+
+  .badge{
+    padding: 5px 15px;
+margin-left: 0
+}
+
+.btn-nofill{
+    color: #000000;
+  background-color: transparent;
+    border-radius:100px;
+  border-color: rgba(0,0,0,0.1);
+  border-width: 1px;
+  padding: 5px 7px 5px 7px;
+}
+
+.btn-nofill:hover{
+    color: #dc3545;
+  font-weight: bold;
+  background-color: transparent;
+    border-radius:100px;
+  border-color: #dc3545;
+  border-width: 1px;
+  padding: 5px 7px 5px 7px;
+}
+
+hr2 {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left:inherit;
+    margin-right: auto;
+    border-style:solid;
+    border-width: 2px;
+      width: 25%;
+      border-color:#dc3545;
+  }
